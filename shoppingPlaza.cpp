@@ -170,7 +170,7 @@ void place_order(){
 void admin_menu(){
       int ch;
       string pass,passcheck;
-      passcheck="dmart";
+      passcheck="abcd12";
       cout<<"Enter the password :";
       cin>>pass;
       if(passcheck==pass){
